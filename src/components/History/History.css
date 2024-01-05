@@ -1,0 +1,38 @@
+.history__container{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    padding: 7px 10px;
+    border: 1px solid black;
+    justify-content: space-between;
+    height: 100%;
+
+}
+.history__block{
+    display: flex;
+    align-items: center;
+    flex: 1 0 auto;
+    height: 35px;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.history__container:hover {
+    cursor: pointer;
+}
+
+.history__removeBtn{
+    padding: 5px 10px;
+    background: red;
+    color: white;
+    border: none;
+    min-height: 100%;
+}
+.history{
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+}

@@ -1,0 +1,13 @@
+.reportBoard{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 15px;
+    border: 1px solid black;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.reportBoard__income{
+
+}
